@@ -19,19 +19,19 @@ public class Problem_03 {
        
        for (int i =0; i < row; i++)
        {
-           for (int j = 0; j < row_Counter; j++) {
+           for (int j = 0; j < row_Counter; j++) {//we use this to create the level of the triangle value what we will check
                row_total = Math.pow(2, row-1);
            }
 
           
           
           
-           if (row_total % 7 == 0)
+           if (row_total % 7 == 0)//checks the row to see if it is divisable by 7
            {
               return; 
            }
            else
-           row_Counter = row_Counter+1;
+           row_Counter = row_Counter+1;//if it is not divisiable by 7 do this
            
        }
        
